@@ -5,32 +5,28 @@
 body{
     margin: 20px;
     text-align: center;
-    background-color: #0051ff;
+    background-color: #000000;
 }
 
 h1,h2{
-    font-size: 40px;
-    
+    font-size: 40px; 
 }
 
 .botao{
-    background-color: #0051ff;
-    border: 2px solid #0051ff;
-    color: #000000;
+    background-color: #000000;
+    border: 2px solid #000000;
+    color: #ffffff;
     padding: 5px;
     font-size: 25px;
     cursor: pointer;
     margin: 12px 0 ;
     border-radius: 10px
 }
-.botao:hover{
-    background-color: #ffffff;
-    transition-duration: 0.4s;
-}
+
 
 .menu{
-    width: 70%;
+    width: 100%;
     background-color: #ffffff;
-    position: fixed;
     border-radius: 50px;
+    margin:  40px 40 ;
 }
