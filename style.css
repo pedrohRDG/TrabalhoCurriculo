@@ -12,14 +12,18 @@ h1,h2{
     font-size: 40px; 
 }
 
+
+
 .botao{
     background-color: #535353;
     border: 2px solid #000000;
     color: #ffffff;
     padding: 5px;
     font-size: 25px;
+    cursor: pointer;
     margin: 12px 0 ;
-    border-radius: 10px
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px #aaa;
 }
 
 
@@ -30,10 +34,13 @@ h1,h2{
     margin:  40px 40 ;
 }
 
+.hed{
+    padding-top: 20px;
+}
+
 .img1{
     width: 350px;
     height: 350px;
-    border-radius: 1000px ;
-    border: 2px solid #ffffff;
-
+    border-radius: 2000px ;
+    border: 2px solid #ffffff; 
 }
