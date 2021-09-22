@@ -5,7 +5,8 @@
 body{
     margin: 20px;
     text-align: center;
-    background-color: #535353;
+    background: rgb(255,255,255);
+background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(124,124,124,1) 0%, rgba(61,61,61,1) 68%, rgba(0,0,0,1) 100%);
 }
 
 h1,h2{
@@ -15,7 +16,8 @@ h1,h2{
 
 
 .botao{
-    background-color: #535353;
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(124,124,124,1) 0%, rgba(61,61,61,1) 68%, rgba(0,0,0,1) 100%);
     border: 2px solid #000000;
     color: #ffffff;
     padding: 5px;
@@ -35,7 +37,7 @@ h1,h2{
 }
 
 .hed{
-    padding-top: 100px ;
+    padding-top: 90px ;
 }
 
 .img1{
@@ -46,9 +48,44 @@ h1,h2{
 }
 
 .icons{
-    padding-top: 30px;
+    padding-top: 250px;
 }
 
-.icons i{
-   margin: 100px
+.icons  a {
+    text-decoration: none;
+    color: inherit;
+    margin: 200px;
 }
+
+.flip-box {
+    background-color: transparent;
+    height: 200px;
+
+  }
+  
+  .flip-box-inner {
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  .flip-box:hover .flip-box-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-box-front, .flip-box-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .flip-box-front {
+    background-color: #bbb;
+    color: black;
+  }
+  
+  .flip-box-back {
+    transform: rotateY(180deg);
+    color: #ffffff;
+  }
