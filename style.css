@@ -35,7 +35,7 @@ h1,h2{
 }
 
 .hed{
-    padding-top: 20px;
+    padding-top: 30px;
 }
 
 .img1{
@@ -43,4 +43,12 @@ h1,h2{
     height: 350px;
     border-radius: 2000px ;
     border: 2px solid #ffffff; 
+}
+
+.icons{
+    padding-top: 50px;
+}
+
+.icons i{
+   margin: 100px
 }
